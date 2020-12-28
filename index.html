@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML5 и CSS3 сайт </title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div id="logo" onclick="slowScroll('#top')">
+			<span>LVN</span>
+		</div>
+		<div id="about">
+			<a href="#" onclick="slowScroll('#main')" title="Возможности">Возможности</a>
+			<a href="#" onclick="slowScroll('#overiew')" title="Преимущества">Преимущества</a>
+
+			<a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+
+			<a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+		</div>
+	</header>
+
+	<div id="top">
+		<h1>Программирование</h1>
+		<h3>как образ жизни!</h3>
+	</div>
+
+	<div id="main">
+		<div class="intro">
+			<h2>Наши услуги помогут вам!</h2>
+			<span>Большой выбор всего, что может вам пригодиться</span>
+		</div>
+		<div class="text">
+			<span>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Non mollitia voluptas suscipit culpa repellendus, animi voluptates sed ex officia nesciunt, alias labore dignissimos voluptatem consectetur fuga, incidunt quibusdam itaque excepturi?</span>
+		</div>
+	</div>
+
+	<div id="overview">
+		<h2>Преимущества</h2>
+		<H4>с нами всё проще</H4>
+
+		<div class="img">
+			<img src="https://itproger.com/img/courses/1562741662.jpg" alt="">
+			<span>Основы Git & GitHub для начинающих</span>
+		</div>
+		<div class="img">
+			<img src="https://itproger.com/img/courses/1550320843.jpg" alt="">
+			<span>Изучаем основы языка SQL</span>
+		</div>
+		<div class="img">
+			<img src="https://itproger.com/img/courses/1522696846.jpg" alt="">
+			<span>Уроки WordPress быстрый старт</span>
+		</div>
+		<div class="img">
+			<img src="https://itproger.com/img/courses/1476982418.jpg" alt="">
+			<span>Создание адаптивного сайта</span>
+		</div>
+	</div>
+
+	<div id="contacts">
+		<center><h5>Обратная связь</h5></center>
+		<form id="form_input">
+			<label for="name">Имя <span>*</span></label><br>
+			<input type="text" placeholder="Введите имя" name="name" id="name"><br>
+			<label for="email">Ваша почта <span>*</span></label><br>
+			<input type="email" placeholder="Введите email" name="email" id="email"><br>
+			<label for="message">Сообщение <span>*</span></label><br>
+			<textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+			<div id="mess_send" class="btn">Отправить</div>
+		</form>
+	</div>
+
+	<div id="faq">
+		<div>
+			<span class="title">Оплата</span><br>
+			<span class="heading">Как будет проходить оплата?</span>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti repudiandae amet soluta, id, impedit placeat sunt temporibus eligendi illo repellendus. Voluptas incidunt totam, possimus rerum maiores nihil modi facilis sint.</p>
+			<span class="heading">Как будет проходить оплата?</span>
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Corrupti impedit nihil distinctio est eligendi delectus perspiciatis alias officia commodi rerum consequuntur, ipsa reiciendis maiores optio, amet molestiae nesciunt eos. Velit.</p>
+			<span class="heading">Как будет проходить оплата?</span>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, distinctio cupiditate tempore, porro id recusandae odit totam expedita quidem quasi quam odio incidunt. Ut asperiores aliquid, repudiandae aspernatur reprehenderit atque.</p>
+		</div>
+		<div>
+			<span class="title">Услуги</span><br>
+			<span class="heading">Какие услуги есть?</span>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti repudiandae amet soluta, id, impedit placeat sunt temporibus eligendi illo repellendus. Voluptas incidunt totam, possimus rerum maiores nihil modi facilis sint.</p>
+			<span class="heading">Какие услуги есть?</span>
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Corrupti impedit nihil distinctio est eligendi delectus perspiciatis alias officia commodi rerum consequuntur, ipsa reiciendis maiores optio, amet molestiae nesciunt eos. Velit.</p>
+			<span class="heading">Какие услуги есть?</span>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, distinctio cupiditate tempore, porro id recusandae odit totam expedita quidem quasi quam odio incidunt. Ut asperiores aliquid, repudiandae aspernatur reprehenderit atque.</p></div>
+		<div>
+			<span class="title">Гарантии</span><br>
+			<span class="heading">Какие гарантии есть?</span>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti repudiandae amet soluta, id, impedit placeat sunt temporibus eligendi illo repellendus. Voluptas incidunt totam, possimus rerum maiores nihil modi facilis sint.</p>
+			<span class="heading">Какие гарантии есть?</span>
+			<p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Corrupti impedit nihil distinctio est eligendi delectus perspiciatis alias officia commodi rerum consequuntur, ipsa reiciendis maiores optio, amet molestiae nesciunt eos. Velit.</p>
+			<span class="heading">Какие гарантии есть?</span>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, distinctio cupiditate tempore, porro id recusandae odit totam expedita quidem quasi quam odio incidunt. Ut asperiores aliquid, repudiandae aspernatur reprehenderit atque.</p></div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		function slowScroll(id) {
+			$('html', 'body').animate({
+				scrollTop: $(id).offset().top
+			}, 500);
+		}
+
+		$(document).on("scroll", function  () {
+			if($(window).scrollTop() === 0)
+				$("header").removeClass("fixed");
+			else
+				$("header").attr("class", "fixed");
+		});
+	</script>
+
+</body>
+</html>
